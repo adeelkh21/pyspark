@@ -1,17 +1,17 @@
 #creating pyspark session
 
-from pyspark.sql import SparkSession
-spark = SparkSession.builder.appName("Lab02").getOrCreate()
-sc = spark.sparkContext
+from pyspark.sql import SparkSession.
+spark = SparkSession.builder.appName("Lab02").getOrCreate().
+sc = spark.sparkContext.
 
 ----------
 
-#import findspark
-#findspark.init()
-from pyspark import SparkContext
-from pyspark.sql import SparkSession
-sc = SparkContext("local")
-spark = SparkSession.builder.getOrCreate()
+#import findspark.
+#findspark.init().
+from pyspark import SparkContext.
+from pyspark.sql import SparkSession.
+sc = SparkContext("local").
+spark = SparkSession.builder.getOrCreate().
 
 ------------
 #colab env
